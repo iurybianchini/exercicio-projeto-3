@@ -1,0 +1,60 @@
+Body {
+    font-family: "Noto Serif", serif;
+}
+
+.navbar {
+    background-color: #593622;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #593622;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-livros .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #F1F0F2;
+}
+
+.section-title {
+    font-family: "Libre Baskerville", serif;
+}
+
+
+#sobre-a-livraria, #nossos-livros {
+    background-color: #F1F0F2;
+}
+
+.text-colored {
+    color: #593622 ;
+}
+
+.nav-livros .nav-link.active,
+#fale-conosco button {
+    background-color: #593622;
+    color: #fff;
+}
+.nav-livros .nav-link:hover{
+    color: #593622;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
